@@ -1,0 +1,98 @@
+.abroad-learn-wrapper {
+  background: #fff;
+  box-shadow: 0px 9.10294px 43.6941px rgba(40, 43, 111, 0.1);
+  border-radius: 18.2059px;
+  box-sizing: border-box;
+  padding: 30px;
+  min-height: 550px;
+
+  .abroad-tag {
+    background: #CDD8FF;
+    border-radius: 72.8235px;
+    font-weight: 500;
+    font-size: 20.0265px;
+    color: #717FB0;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+
+
+  .abroad-learn-img {
+    position: relative;
+
+    .abroad-title {
+      font-weight: 600;
+      font-size: 30.95px;
+      line-height: 160%;
+      color: #55578D;
+      margin: 20px 0;
+      width: 80%;
+    }
+
+    img {
+      border-radius: 18.2059px;
+    }
+
+    .fly-to-abroad {
+      display: flex;
+      align-items: center;
+      background: #FFFFFF;
+      box-shadow: 0px 18.2059px 52.7971px rgba(40, 43, 111, 0.08);
+      border-radius: 18.2059px;
+      width: 350px;
+      height: 100px;
+      box-sizing: border-box;
+      padding: 20px;
+      position: absolute;
+      bottom: -70px;
+      left: 150px;
+
+      .fly-to-abroad-block {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #D8F9ED;
+        margin-right: 20px;
+      }
+
+      .fly-to-abroad-title {
+        font-weight: 600;
+        font-size: 20.0265px;
+        line-height: 160%;
+        color: #41BE90;
+        width: 70%;
+      }
+    }
+  }
+
+  .abroad-learn-info {
+    box-sizing: border-box;
+    padding: 20px 40px;
+
+    .abroad-info-title {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 160%;
+      color: #2F327D;
+      margin-bottom: 60px;
+    }
+
+    .abroad-info-text {
+      font-size: 22px;
+      line-height: 180%;
+      letter-spacing: 0.02em;
+      color: #696984;
+      margin-bottom: 60px;
+    }
+
+    .abroad-tag {}
+  }
+}

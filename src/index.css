@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.project-wrapper {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.project {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.project .mw {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.project .section-title-wrapper {
+  max-width: 1440px !important;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}

@@ -1,0 +1,73 @@
+.start-main {
+  margin-top: 20px;
+
+  .start-main-alert-wrapper {
+    display: flex;
+
+    .start-main-alert {
+      background: rgba(173, 173, 173, 0.15);
+      border-radius: 10px;
+      text-align: center;
+      box-sizing: border-box;
+      padding: 20px;
+      width: 450px;
+
+
+      h4 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #fff;
+      }
+
+      p {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 29px;
+        color: #fff;
+      }
+    }
+  }
+
+  .start-main-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .start-main-play-icon {
+      height: 45px;
+      width: 45px;
+      border-radius: 50%;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .qollanma {
+      font-size: 14px;
+      line-height: 25px;
+      color: #fff;
+      margin-top: 10px;
+    }
+  }
+
+  .group-squad-gameplayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    .small-player {
+      height: 250px;
+    }
+
+    .normal-player {
+      height: 290px;
+
+    }
+  }
+
+}

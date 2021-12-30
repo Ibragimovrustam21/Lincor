@@ -1,0 +1,70 @@
+.navbar-background {
+  width: 100%;
+  height: 470px;
+  background: url('../../img/Rectangle 4451.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -11;
+}
+
+.lincor-navbar {
+  height: 70px;
+  width: 100%;
+
+  .lincor-navbar-logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 60px;
+      margin-top: 10px;
+    }
+  }
+
+  .lincor-navbar-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+
+      li {
+        padding: 10px 20px;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .lincor-navbar-sign {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    a {
+      padding: 10px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .sign-up {
+      padding: 5px;
+      border: 1px solid #C5C7C9;
+      box-sizing: border-box;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+  }
+}

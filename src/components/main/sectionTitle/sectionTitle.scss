@@ -1,0 +1,57 @@
+.section-title-wrapper {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  max-width: 1440px !important;
+
+  .section-title {
+    width: 480px;
+    height: 150px;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    background: #ff4c4c;
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.41);
+    border-radius: 5px;
+
+    h4 {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 45px;
+      color: #fff;
+    }
+
+    .lang-korean {
+      color: #FFB600;
+    }
+
+
+    .head-player {
+      position: absolute;
+      right: 0;
+      top: -20px;
+    }
+  }
+}
+
+.section-title-right {
+  justify-content: flex-end;
+}
+
+.section-title-left {
+  justify-content: flex-start;
+
+  .section-title {
+    background: #272B35;
+
+    h4 {
+      margin-left: 140px;
+    }
+
+    .head-player {
+      position: absolute;
+      left: 0;
+      top: -20px;
+    }
+  }
+}
